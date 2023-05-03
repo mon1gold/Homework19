@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+       ValueCalculator valueCalculator = new ValueCalculator(1_000_000);
+        valueCalculator.calculator();
     }
 }
